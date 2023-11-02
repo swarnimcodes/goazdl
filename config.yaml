@@ -1,0 +1,22 @@
+# CONFIG FILE
+
+## Global variables
+global:
+  logfile_directory: D:\azure-download-dump-logs
+  sendgrid_api_key: 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
+  to_mail:
+    - swarnim335@gmail.com
+
+## Storage account configurations
+storage_accounts:
+  - storage_account_name: makautdocstorage
+    tenant_id: c243fe73-2d4d-43af-8723-ebbcb8618804
+    client_id: 3dafd56d-050c-4185-8786-58f3be2b9957
+    client_secret: xKU8Q~YdGuJ6jktEBUc~RWqVIBz1ufOnBRS4-ch7
+    dl_path: D:\makautdocstorage
+    
+  - storage_account_name: ahbiuqwefbi
+    tenant_id: oaefhowe
+    client_id: uwefbwe-srvsrvowrnv-khabefhk
+    client_secret: xWqVIBz1ufOnBRS4-ch7
+    dl_path: D:\makautdocstorage
